@@ -71,14 +71,16 @@ In Railway dashboard:
 3. Add these (copy-paste):
 
 ```
-SUPABASE_URL=https://hconeborornmmvvwtjc.supabase.co
-SUPABASE_KEY=sb_publishable_6LJ4dGsCaB9nns1q_HXnKg_Ht-PXv0g
-SUPABASE_SERVICE_KEY=sb_secret_EdLFue1pOINkO_tg7uhh6g_WPK0LS2N
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_publishable_key
+SUPABASE_SERVICE_KEY=your_supabase_service_key
 NODE_ENV=production
 PORT=5000
-JWT_SECRET=flipit_jwt_secret_production_key_2024
+JWT_SECRET=your_jwt_secret
 CORS_ORIGIN=*
 ```
+
+(Get these values from your `.env` file in the `api/` folder)
 
 4. Click **"Save"**
 

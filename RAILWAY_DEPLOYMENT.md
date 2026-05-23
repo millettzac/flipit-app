@@ -40,14 +40,14 @@ git push -u origin main
 
 1. In Railway dashboard, go to your project
 2. Click **"Variables"** tab
-3. Add these:
+3. Add these (from your `.env` file):
    ```
-   SUPABASE_URL=https://hconeborornmmvvwtjc.supabase.co
-   SUPABASE_KEY=sb_publishable_6LJ4dGsCaB9nns1q_HXnKg_Ht-PXv0g
-   SUPABASE_SERVICE_KEY=sb_secret_EdLFue1pOINkO_tg7uhh6g_WPK0LS2N
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_KEY=your_supabase_publishable_key
+   SUPABASE_SERVICE_KEY=your_supabase_service_key
    NODE_ENV=production
    PORT=5000
-   JWT_SECRET=flipit_jwt_secret_production_key_2024
+   JWT_SECRET=your_jwt_secret
    CORS_ORIGIN=*
    ```
 4. Click **"Save"**
@@ -85,12 +85,12 @@ cd C:\Users\mille\OneDrive\Desktop\Obsidian\codes\FLIPIT_APP\api
 # Initialize Railway project
 railway init
 
-# Set up environment
-railway variables set SUPABASE_URL=https://hconeborornmmvvwtjc.supabase.co
-railway variables set SUPABASE_KEY=sb_publishable_6LJ4dGsCaB9nns1q_HXnKg_Ht-PXv0g
-railway variables set SUPABASE_SERVICE_KEY=sb_secret_EdLFue1pOINkO_tg7uhh6g_WPK0LS2N
+# Set up environment (use values from your .env file)
+railway variables set SUPABASE_URL=your_supabase_url
+railway variables set SUPABASE_KEY=your_supabase_publishable_key
+railway variables set SUPABASE_SERVICE_KEY=your_supabase_service_key
 railway variables set NODE_ENV=production
-railway variables set JWT_SECRET=flipit_jwt_secret_production_key_2024
+railway variables set JWT_SECRET=your_jwt_secret
 
 # Deploy
 railway up
