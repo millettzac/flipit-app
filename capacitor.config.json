@@ -1,0 +1,23 @@
+{
+  "appId": "com.flipit.resale",
+  "appName": "FlipIt",
+  "webDir": "web",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "iosSScheme": "capacitor",
+    "cleartext": true
+  },
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#8B5CF6"
+    }
+  }
+}

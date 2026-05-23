@@ -1,0 +1,36 @@
+{
+  "name": "flipit-app",
+  "version": "1.0.0",
+  "description": "FlipIt - Multi-platform resale marketplace with AI pricing",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server web -p 8000",
+    "build": "echo 'Build complete'",
+    "cap:add:ios": "capacitor add ios",
+    "cap:add:android": "capacitor add android",
+    "cap:build": "capacitor build",
+    "cap:sync": "capacitor sync",
+    "cap:open:ios": "capacitor open ios",
+    "cap:open:android": "capacitor open android"
+  },
+  "keywords": [
+    "resale",
+    "marketplace",
+    "ai",
+    "mobile"
+  ],
+  "author": "FlipIt Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/cli": "^5.7.0",
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/ios": "^5.7.0",
+    "@capacitor/android": "^5.7.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@capacitor/camera": "^5.7.0",
+    "@capacitor/app": "^5.7.0",
+    "@capacitor/share": "^5.7.0"
+  }
+}
