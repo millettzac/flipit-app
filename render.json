@@ -1,0 +1,19 @@
+﻿{
+  "schemaVersion": 1,
+  "buildCommand": "npm install",
+  "startCommand": "npm start",
+  "envVars": [
+    {
+      "key": "SUPABASE_URL",
+      "value": "https://hconeborornmmvvwtjc.supabase.co"
+    },
+    {
+      "key": "NODE_ENV",
+      "value": "production"
+    },
+    {
+      "key": "PORT",
+      "value": "5000"
+    }
+  ]
+}
